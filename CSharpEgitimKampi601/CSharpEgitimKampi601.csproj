@@ -172,11 +172,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmCustomer.Designer.cs">
       <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepartment.Designer.cs">
+      <DependentUpon>FrmDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployes.Designer.cs">
+      <DependentUpon>FrmEmployes.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -185,8 +203,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCustomer.resx">
       <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDepartment.resx">
+      <DependentUpon>FrmDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployes.resx">
+      <DependentUpon>FrmEmployes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
