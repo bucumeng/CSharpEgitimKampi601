@@ -36,16 +36,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtCustomerCity = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtCustomerBalance = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txtCustomerShoppingCount = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.btnList = new System.Windows.Forms.Button();
             this.btnCustomerCreate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnGetByID = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtCustomerBalance = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtCustomerShoppingCount = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,23 +117,6 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Müşteri Şehri:";
             // 
-            // txtCustomerBalance
-            // 
-            this.txtCustomerBalance.Location = new System.Drawing.Point(131, 195);
-            this.txtCustomerBalance.Name = "txtCustomerBalance";
-            this.txtCustomerBalance.Size = new System.Drawing.Size(177, 20);
-            this.txtCustomerBalance.TabIndex = 9;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(64, 195);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 16);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Bakiye:";
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -142,23 +125,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(876, 382);
             this.dataGridView1.TabIndex = 10;
-            // 
-            // txtCustomerShoppingCount
-            // 
-            this.txtCustomerShoppingCount.Location = new System.Drawing.Point(131, 236);
-            this.txtCustomerShoppingCount.Name = "txtCustomerShoppingCount";
-            this.txtCustomerShoppingCount.Size = new System.Drawing.Size(177, 20);
-            this.txtCustomerShoppingCount.TabIndex = 12;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(18, 236);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 16);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Alışveriş Tutarı:";
             // 
             // btnList
             // 
@@ -215,6 +181,40 @@
             this.btnGetByID.UseVisualStyleBackColor = false;
             this.btnGetByID.Click += new System.EventHandler(this.btnGetByID_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(64, 195);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(52, 16);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Bakiye:";
+            // 
+            // txtCustomerBalance
+            // 
+            this.txtCustomerBalance.Location = new System.Drawing.Point(131, 195);
+            this.txtCustomerBalance.Name = "txtCustomerBalance";
+            this.txtCustomerBalance.Size = new System.Drawing.Size(177, 20);
+            this.txtCustomerBalance.TabIndex = 9;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(18, 236);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(98, 16);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Alışveriş Tutarı:";
+            // 
+            // txtCustomerShoppingCount
+            // 
+            this.txtCustomerShoppingCount.Location = new System.Drawing.Point(131, 236);
+            this.txtCustomerShoppingCount.Name = "txtCustomerShoppingCount";
+            this.txtCustomerShoppingCount.Size = new System.Drawing.Size(177, 20);
+            this.txtCustomerShoppingCount.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -257,16 +257,16 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtCustomerCity;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtCustomerBalance;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox txtCustomerShoppingCount;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnList;
         private System.Windows.Forms.Button btnCustomerCreate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnGetByID;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtCustomerBalance;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtCustomerShoppingCount;
     }
 }
 
